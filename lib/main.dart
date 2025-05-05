@@ -92,7 +92,7 @@ class _LaunchInitializerState extends State<LaunchInitializer> {
   Future<void> initializeAppsFlyer() async {
     AppsFlyerOptions options = AppsFlyerOptions(
       afDevKey: "P8Cmc5f5JjkNjQ3haoGbWS",
-      appId: "6744177310",
+      appId: "6745129171",
       showDebug: true,
       timeToWaitForATTUserAuthorization: 0,
     );
