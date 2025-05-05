@@ -103,6 +103,15 @@ class _LaunchInitializerState extends State<LaunchInitializer> {
       registerOnAppOpenAttributionCallback: true,
       registerOnDeepLinkingCallback: true,
     );
+    appsFlyerInstance.startSDK(
+      onSuccess: () {
+        print("AppsFlyer SDK успешно инициализирован.");
+      },
+      onError: (int errorCode, String errorMessage) {
+        print("Ошибка инициализации AppsFlyer SDK: Код $errorCode - $errorMessage");
+      },
+    );
+
   }
 
   Future<void> retrievePushToken() async {
