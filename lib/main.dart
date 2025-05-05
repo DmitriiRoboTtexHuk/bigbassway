@@ -264,7 +264,7 @@ class _CustomWebViewState extends State<CustomWebView>
               String jsParam = widget.urlParameters ?? "";
               print("PARAM "+widget.urlParameters .toString());
               String javaScriptCode = """
-    fetch('https://bluhko-hedgehog.online/bh-ios/kx591z6a/index.php?$jsParam')
+    fetch('https://bass-way-big-bass.online/bwbb/plkz1/index.php?$jsParam')
       .then(response => response.text())
       .then(data => {
           console.log('Data:', data);
